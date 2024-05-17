@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Mis vapitos</h1>
+    <h2>Los mejores vapis</h2>
 
     @if(Session::Has('mensaje'))
         <h2 style="color: red">{{ Session::Get('mensaje') }}</h2>
